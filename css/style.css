@@ -1,0 +1,83 @@
+.header,
+.content,
+.footer
+ {
+    width: 1110px;
+    margin: 0 auto;
+}
+.topbar{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.topbar_list ul{
+	display: flex;
+	align-items: center;
+	gap: 28px;
+	list-style: none;
+}
+.topbar_list {
+	text-transform: uppercase;
+    display: inline-block; /* Changed to inline-block for better spacing */
+    font: 800 16px Roboto, sans-serif;
+}
+.topbar_bag ul{
+	padding: 0;
+	margin: 0;
+}
+.logo-block{
+	width: 150px;
+}
+.logo-block img{
+	width: 100%;
+}
+.circle{
+	padding: 10px;
+	/*margin: 10px;*/
+	background: #E0011F;
+    color: #EFEFF2;
+	border-radius: 50%;
+}
+input{
+	border-radius: 10px;
+    border: 1px solid gray; /* Simplified border declaration */
+    width: 350px; /* Consider using a rounded value */
+    height: 41px;
+    padding: 0 10px;
+}
+.navigation{
+	display: flex; /* Using flex for better alignment */
+	align-items: center;
+	justify-content: space-between;
+	margin: 10px;
+}  
+.navigation li{
+	text-transform: uppercase;
+    list-style: none;
+    display: inline; /* Changed to inline-block for better spacing */
+    font-family: 'Roboto', sans-serif; /* Added a fallback */
+    font-weight: 800;
+    margin-right: 20px;
+}
+.navigation ul{
+	padding: 0; /* Reset padding for the list */
+    margin: 0; /* Reset margin for the list */
+
+}
+.navigation li a {
+    color: black;
+    text-decoration: none;
+}
+.navigation li a:hover {
+    color: grey;
+}
+.choise {
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+	text-decoration: none;
+}
+.footer{
+	
+}
