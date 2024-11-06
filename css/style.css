@@ -71,13 +71,28 @@ input{
 .navigation li a:hover {
     color: grey;
 }
-.choise {
+.choice {
 	display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 10px;
-	text-decoration: none;
+   	list-style: none;
+	padding: 0;
+	margin-top: 45px;
 }
-.footer{
+.choice li{
+	width: 143.75px;
+	height: 112.19px;
+	display: flex;
+    flex-direction: column; /* Располагаем элементы вертикально */
+    align-items: center; /* Горизонтальное выравнивание */
+    justify-content: center; /* Вертикальное выравнивание */
+    text-align: center; /* Выравниван*/
+	padding-top: 10px;
+}
+ul.choice {
+	font: 600 16px Roboto, sans-serif;
+}
+/*.footer{
+
 	
-}
+}*/
