@@ -1,25 +1,31 @@
-.header,
-.content,
-.footer
+body{
+	background: #EBEBEB;
+}
+header,
+main,
+footer
  {
     width: 1110px;
     margin: 0 auto;
+	
 }
 .topbar{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 }
-.topbar_list ul{
+.topbar_list{
 	display: flex;
+	flex-direction: row;
 	align-items: center;
 	gap: 28px;
-	list-style: none;
+	font: 800 16px Roboto, sans-serif;
 }
-.topbar_list {
-	text-transform: uppercase;
-    display: inline-block; /* Changed to inline-block for better spacing */
-    font: 800 16px Roboto, sans-serif;
+.topbar_list_little{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 7px;
 }
 .topbar_bag ul{
 	padding: 0;
@@ -33,29 +39,31 @@
 }
 .circle{
 	padding: 10px;
-	/*margin: 10px;*/
 	background: #E0011F;
     color: #EFEFF2;
 	border-radius: 50%;
 }
 input{
 	border-radius: 10px;
-    border: 1px solid gray; /* Simplified border declaration */
-    width: 350px; /* Consider using a rounded value */
+    border: 1px solid gray; 
+    width: 350px; 
     height: 41px;
     padding: 0 10px;
+	color: #7A7A7A;
+	background: #EBEBEB;
 }
 .navigation{
-	display: flex; /* Using flex for better alignment */
+	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	margin: 10px;
+	margin-top: 21px;
+	margin-bottom: 21px;
 }  
 .navigation li{
 	text-transform: uppercase;
     list-style: none;
-    display: inline; /* Changed to inline-block for better spacing */
-    font-family: 'Roboto', sans-serif; /* Added a fallback */
+    display: inline;
+    font-family: 'Roboto', sans-serif;
     font-weight: 800;
     margin-right: 20px;
 }
@@ -78,21 +86,94 @@ input{
    	list-style: none;
 	padding: 0;
 	margin-top: 45px;
+	border-bottom: 1px solid #b8b1b1;
 }
 .choice li{
 	width: 143.75px;
 	height: 112.19px;
 	display: flex;
-    flex-direction: column; /* Располагаем элементы вертикально */
-    align-items: center; /* Горизонтальное выравнивание */
-    justify-content: center; /* Вертикальное выравнивание */
-    text-align: center; /* Выравниван*/
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
 	padding-top: 10px;
 }
 ul.choice {
 	font: 600 16px Roboto, sans-serif;
 }
-/*.footer{
+.cards{
+	width: 255px;
+	height: 362px;
+	background: #fffefe;
+	border-radius: 5%;
+}
+.card1{
+	background: #fffefe url(../img/card1.png) no-repeat;
+}
+.card2{
+	background: #fffefe url(../img/card2.png) no-repeat;
+}
+.card3{
+	background: #fffefe url(../img/card3.png) no-repeat;
+
+}
+.card4{
+	background: #fffefe url(../img/card4.png) no-repeat;
+}
+.card5{
+	background: #fffefe url(../img/card5.png) no-repeat;
+}
+.card6{
+	background: #fffefe url(../img/card6.png) no-repeat;
+}
+.card7{
+	background: #fffefe url(../img/card7.png) no-repeat;
+}
+.card8{
+	background: #fffefe url(../img/card8.png) no-repeat;
+}
+.container{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	column-gap: 30px;
+    row-gap: 40px;
+    margin-top: 58px;
+}
+.card_container{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	
+	
+}
+.card_price_container{
+	display: flex;
+	justify-content: space-between;
+	align-items: end;
+	margin: 37px 20px 37px 20px;
+}
+.card_propouse p{
+	color: #EBEBEB;
+	font: 600 10px Roboto, sans-serif;
+	
+}
+.paragraf{
+	padding: 2px 5px; /* Внутренние отступы */
+	border-radius: 5px; /* Овальные края */
+	display: block;
+	background-color: #121212;
+	width: fit-content;
+	margin: 10px 0 5px 10px;
+}
+.paragraf_two{
+	font: 600 18px Roboto, sans-serif;
+}
+.paragraf_three{
+	color: #FE0000;
+	font: 600 18px Roboto, sans-serif;
+}
+.footer{
 
 	
 }*/
